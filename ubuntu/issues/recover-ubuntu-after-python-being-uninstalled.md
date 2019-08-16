@@ -1,5 +1,5 @@
 # 卸载python3后，无网络恢复ubuntu的过程
-注：此方法不需要下载任何东西。   
+*注：此方法不需要下载任何东西*   
 
 
 ### 卸载信息
@@ -30,7 +30,7 @@ ls -la /var/cache/apt/archives
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives.png)   
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives-ubuntu-packages.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives-ubuntu-packages.png)
 
-使用dpkg命令安装目录下的所有`deb`包：
+该目录有所有的依赖包，使用dpkg命令安装目录下的所有`deb`包：
 `sudo dpkg -i /var/cache/apt/archives/*.deb`，问题：   
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/dpkg-install-deb-binary.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/dpkg-install-deb-binary.png)
 
