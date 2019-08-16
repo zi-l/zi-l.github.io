@@ -34,7 +34,7 @@ ls -la /var/cache/apt/archives
 `sudo dpkg -i /var/cache/apt/archives/*.deb`，问题：   
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/dpkg-install-deb-binary.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/dpkg-install-deb-binary.png)
 
-`reboot`后仍然进入控制台，但网卡修复，可以连接网络  
+重启ubuntu，`reboot`后仍然进入控制台，但网卡修复，可以连接网络  
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/reboot-after-deb-being-installed.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/reboot-after-deb-being-installed.png)
 
 
