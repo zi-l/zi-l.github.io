@@ -1,22 +1,34 @@
-# 卸载python3后，恢复ubuntu的过程
+# 卸载python3后，无网络恢复ubuntu的过程
+注：此方法不需要下载任何东西。   
 
 
 ### 卸载信息
 - 使用的卸载命令：  
-`sudo apt purge python3`
+```
+sudo apt purge python3
+```
 
 - 面临的问题：  
 重启后进入了tty，无法进入desktop桌面，且无法上网
 
   
-  
 ### 恢复ubuntu的过程
 
-使用`locate`命令查找ubuntu相关包的位置:   
-`locate ubuntu18.04`
+使用`locate`命令查找ubuntu相关包的位置: 
+```
+locate ubuntu18.04
+```
+以下为修复完成后的补充图  
+[![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/search-ubuntu-archives.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/search-ubuntu-archives.png)
+
 
 查找的包缓存位于`/var/cache/apt/archives`目录下，可以使用`ls`查看该目录下的包：
-`ls -la /var/cache/apt/archives`
+```
+ls -la /var/cache/apt/archives
+```
+以下为修复完成后的补充图  
+[![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives.png)   
+[![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives-ubuntu-packages.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives-ubuntu-packages.png)
 
 使用dpkg命令安装目录下的所有`deb`包：
 `sudo dpkg -i /var/cache/apt/archives/*.deb`，问题：   
@@ -37,7 +49,7 @@
 重启，进入ubuntu desktop：
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/enter-gui.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/enter-gui.png)
 
-nvm的链接问题
+nvm的node软链接问题
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/nvm-link-issue-with-node.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/nvm-link-issue-with-node.png)
 
 
@@ -89,3 +101,4 @@ Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
 bl@bl-VirtualBox:~$ 
 ```
+修复软连接后，即修复完成，所有数据得到保留。
