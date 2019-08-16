@@ -18,7 +18,7 @@ sudo apt purge python3
 ```
 locate ubuntu18.04
 ```
-以下为修复完成后的补充图  
+*以下为修复完成后的补充图*  
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/search-ubuntu-archives.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/search-ubuntu-archives.png)
 
 
@@ -26,7 +26,7 @@ locate ubuntu18.04
 ```
 ls -la /var/cache/apt/archives
 ```
-以下为修复完成后的补充图  
+*以下为修复完成后的补充图*  
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives.png)   
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives-ubuntu-packages.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/list-ubuntu-archives-ubuntu-packages.png)
 
