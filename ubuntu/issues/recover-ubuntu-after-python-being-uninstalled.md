@@ -16,10 +16,10 @@
 `locate ubuntu18.04`
 
 查找的包缓存位于`/var/cache/apt/archives`目录下，可以使用`ls`查看该目录下的包：
-`ls -la /var/cache/apt/achives`
+`ls -la /var/cache/apt/archives`
 
 使用dpkg命令安装目录下的所有`deb`包：
-`sudo dpkg -i /var/cache/apt/achives/*.deb`，问题：   
+`sudo dpkg -i /var/cache/apt/archives/*.deb`，问题：   
 [![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/dpkg-install-deb-binary.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/dpkg-install-deb-binary.png)
 
 `reboot`后仍然进入控制台，但网卡修复，可以连接网络  
