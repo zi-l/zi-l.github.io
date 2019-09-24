@@ -28,4 +28,4 @@ sudo yum install python3-pip gcc-c++ python3-devel unixODBC-devel
 - /bin/sh: 1: adb: not found
 - Could not find 'aapt' in PATH. Please set the ANDROID_HOME environment variable with the Android SDK root directory path
     
-在`/etc/profile`添加环境变量，或者`/etc/profile.d/`添加脚本，非命令行启动时，`os.getenv`和`os.environ`无法获取`~/.bashrc`和`~/.profile`设置的环境变量
+非命令行启动时，`os.getenv`和`os.environ`无法获取`~/.bashrc`和`~/.profile`设置的环境变量。需要在`/etc/profile`添加环境变量，或者`/etc/profile.d/`添加脚本，也可以为可执行文件创建`/usr/bin`软链接
