@@ -1,5 +1,5 @@
 ## Troubleshooting on Linux
-##### ModuleNotFoundError: No module named 'tkinter'*
+#### ModuleNotFoundError: No module named 'tkinter'*
 tkinter依赖问题     
 
 ubuntu  
@@ -11,7 +11,7 @@ centos
 sudo yum install python3-tkinter
 ```
 
-##### src/pyodbc.h: fatal error: Python.h/sql.h: No such file or directory
+#### src/pyodbc.h: fatal error: Python.h/sql.h: No such file or directory
 pyodbc依赖问题  
 
 ubuntu  
