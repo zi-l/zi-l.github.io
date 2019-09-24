@@ -70,6 +70,10 @@ $ANDROID_HOME/tools/bin/sdkmanager --list |grep platform-tools
 ```
 $ANDROID_HOME/tools/bin/sdkmanager "platform-tools" "build-tools;29.0.2"
 ```
+为adb创建软链接
+```
+sudo ln -s $ANDROID_HOME/platform-tools/adb /usr/bin/adb
+```     
 
 ## Driver
 driver可以选择以下两种方式，或者保存在框架的webdriver文件夹下
