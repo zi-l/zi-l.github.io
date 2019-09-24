@@ -1,5 +1,5 @@
 ## Troubleshooting on Linux
-#### ModuleNotFoundError: No module named 'tkinter'*
+#### ModuleNotFoundError: No module named 'tkinter'
 tkinter依赖问题     
 
 ubuntu  

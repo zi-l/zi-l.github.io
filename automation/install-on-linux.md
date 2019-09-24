@@ -12,13 +12,13 @@ nvm install v10.16.3
 ```
 sudo ln -s $HOME/.nvm/versions/node/v10.16.3/bin/node /usr/bin/node
 sudo ln -s $HOME/.nvm/versions/node/v10.16.3/bin/npm /usr/bin/npm
-sudo ln -s $HOME/.nvm/versions/node/v10.16.3/bin/npm /usr/bin/npm
+sudo ln -s $HOME/.nvm/versions/node/v10.16.3/bin/npx /usr/bin/npx
 ```
 
 ## appium
 参考 [appium/appium](https://github.com/appium/appium/blob/master/docs/en/about-appium/getting-started.md)，使用npm安装：
 ```shell
-npm install appium -g appium
+npm install -g appium
 ```
 使用`appium -v`检查是否安装完成，然后在`/etc/profile`文件添加
 ```
@@ -45,7 +45,7 @@ sudo yum install java-1.8.0-openjdk
 
 
 ## SDK
-下载sdk-tools：[developer.android](https://developer.android.google.cn/studio#downloads)
+下载sdk-tools：[developer.android](https://developer.android.google.cn/studio#downloads)   
 解压到`/usr/lib/`下，如`/usr/lib/androidsdk`
 ```
 sudo mkdir /usr/lib/androidsdk
