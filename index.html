@@ -1,26 +1,3 @@
-<!--use bootstrap-->
-{% extends "bootstrap/base.html" %}
-
-<!--tab icon / chapter 3, page 30-->
-{% block head %}
-{{ super() }}
-<link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}"
-      type="image/x-icon">
-<link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}"
-      type="image/x-icon">
-{% endblock %}
-
-<!--import moment.js / chapter 3, page 31-->
-{% block scripts %}
-    {{ super() }}
-    {{ moment.include_moment() }}
-    {{ moment.lang('zh_CN') }}
-{% endblock %}
-
-<!--page-->
-{% block title %}Flasky{% endblock %}
-
-{% block navbar %}
 <div class="navbar navbar-inverse" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -39,9 +16,7 @@
         </div>
     </div>
 </div>
-{% endblock %}
 
-{% block content %}
 <div class="container">
     <!--flash message-->
     {%  for message in get_flashed_messages() %}
@@ -53,7 +28,3 @@
 
     {% block page_content %}{% endblock %}
 </div>
-{% endblock %}
-
-
-
