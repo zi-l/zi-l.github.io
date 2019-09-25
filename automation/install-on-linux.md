@@ -32,6 +32,11 @@ export PATH=$APPIUM_HOME:$PATH
 ```
 保存后，使用`source /etc/profile`更新，用`echo $APPIUM_HOME`检查
 
+安装appium-doctor
+```shell
+npm install -g appium-doctor
+```
+
 ## JDK
 ubuntu
 ```shell
