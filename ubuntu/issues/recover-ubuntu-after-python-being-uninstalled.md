@@ -11,15 +11,15 @@ sudo apt purge python3
 - 面临的问题：  
 重启后进入了tty，无法进入desktop桌面，且无法上网
 
-  
+
 ### 恢复ubuntu的过程
 
-使用`locate`命令查找ubuntu相关包的位置: 
+使用`locate`命令查找ubuntu相关包的位置:
 ```
 locate ubuntu18.04
 ```
 *以下为修复完成后的补充图*  
-[![](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/search-ubuntu-archives.png)](https://github.com/zi-l/zi-l.github.io/blob/master/images/ubuntu/issues/search-ubuntu-archives.png)
+![](/images/ubuntu/issues/search-ubuntu-archives.png)
 
 
 查找的包缓存位于`/var/cache/apt/archives`目录下，可以使用`ls`查看该目录下的包：
@@ -61,7 +61,7 @@ gedit:
 需要重新创建软链接，或重新安装：
 ```
 bl@bl-VirtualBox:~$ sudo apt-get install gedit
-[sudo] password for bl: 
+[sudo] password for bl:
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -99,6 +99,6 @@ update-alternatives: using /usr/bin/gedit to provide /usr/bin/gnome-text-editor 
 Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
 Processing triggers for hicolor-icon-theme (0.17-2) ...
-bl@bl-VirtualBox:~$ 
+bl@bl-VirtualBox:~$
 ```
 修复软连接后，即修复完成，所有数据得到保留。
