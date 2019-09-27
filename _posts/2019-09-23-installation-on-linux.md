@@ -108,5 +108,4 @@ sudo ln -s $HOME/webdriver/<geckodriver-name> /usr/bin/geckodriver
 
 
 ## Troubleshooting
-- [Troubleshooting on Linux](/_posts/2019-09-23-troubleshooting-on-linux.md)
 - [Troubleshooting on Linux](https://zi-l.github.io/2019/09/23/troubleshooting-on-linux.html)
