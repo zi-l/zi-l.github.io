@@ -21,7 +21,7 @@ nvm install v10.16.3
 ```
 使用`node -v`检查是否安装成功     
 创建软链接
-```
+```shell
 sudo ln -s $HOME/.nvm/versions/node/v10.16.3/bin/node /usr/bin/node
 sudo ln -s $HOME/.nvm/versions/node/v10.16.3/bin/npm /usr/bin/npm
 sudo ln -s $HOME/.nvm/versions/node/v10.16.3/bin/npx /usr/bin/npx
@@ -64,7 +64,7 @@ sudo yum install java-1.8.0-openjdk
 ## SDK
 下载sdk-tools：[developer.android](https://developer.android.google.cn/studio#downloads)   
 解压到`/usr/lib/`下，如`/usr/lib/androidsdk`
-```
+```shell
 sudo mkdir /usr/lib/androidsdk
 sudo unzip sdk-tools*.zip -d /usr/lib/androidsdk/
 sudo chown $USER -R /usr/lib/androidsdk
@@ -84,11 +84,11 @@ $ANDROID_HOME/tools/bin/sdkmanager --list |grep build-tools
 $ANDROID_HOME/tools/bin/sdkmanager --list |grep platform-tools
 ```
 安装，如`platform-tools`和`build-tools 29.0.2`
-```
+```shell
 $ANDROID_HOME/tools/bin/sdkmanager "platform-tools" "build-tools;29.0.2"
 ```
 为adb创建软链接
-```
+```shell
 sudo ln -s $ANDROID_HOME/platform-tools/adb /usr/bin/adb
 ```     
 

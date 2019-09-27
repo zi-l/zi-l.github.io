@@ -15,7 +15,7 @@ tags:
 
 ### 卸载信息
 - 使用的卸载命令：  
-```
+```shell
 sudo apt purge python3
 ```
 
@@ -26,7 +26,7 @@ sudo apt purge python3
 ### 恢复ubuntu的过程
 
 使用`locate`命令查找ubuntu相关包的位置:
-```
+```shell
 locate ubuntu18.04
 ```
 *以下为修复完成后的补充图*  
@@ -34,7 +34,7 @@ locate ubuntu18.04
 
 
 查找的包缓存位于`/var/cache/apt/archives`目录下，可以使用`ls`查看该目录下的包：
-```
+```shell
 ls -la /var/cache/apt/archives
 ```
 *以下为修复完成后的补充图*  
@@ -65,12 +65,12 @@ nvm的node软链接问题
 
 
 修复安装后有些软链接都失效了，如`gedit`：
-```
+```shell
 bl@bl-VirtualBox:~$ whereis gedit
 gedit:
 ```
 需要重新创建软链接，或重新安装：
-```
+```shell
 sudo apt-get install gedit
 ```
 修复软连接后，即修复完成，所有数据得到保留。

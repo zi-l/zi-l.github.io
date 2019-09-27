@@ -14,11 +14,11 @@ tags:
 tkinter依赖问题     
 
 ubuntu  
-```
+```shell
 sudo apt-get install python3-tk
 ```
 centos  
-```
+```shell
 sudo yum install python3-tkinter
 ```
 
@@ -26,11 +26,11 @@ sudo yum install python3-tkinter
 pyodbc依赖问题  
 
 ubuntu  
-```
+```shell
 sudo apt-get install unixodbc unixodbc-dev
 ```
 centos  
-```
+```shell
 sudo yum install epel-release
 sudo yum install python3-pip gcc-c++ python3-devel unixODBC-devel
 ```
