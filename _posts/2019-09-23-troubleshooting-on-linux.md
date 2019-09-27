@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Linux自动化环境故障排除
-subtitle: "Automation troubleshooting on Linux "
+subtitle: "Automation troubleshooting on Linux"
 author: "Yon Liu"
 tags:
   - ubuntu
   - centos
   - automation
 ---
-## Troubleshooting on Linux
 #### ModuleNotFoundError: No module named 'tkinter'
 tkinter依赖问题     
 
