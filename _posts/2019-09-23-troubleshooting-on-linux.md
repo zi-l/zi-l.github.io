@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux自动化环境故障排除
+title: Linux自动化环境问题排除
 subtitle: "Automation troubleshooting on Linux"
 author: "Yon Liu"
 tags:
