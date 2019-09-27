@@ -3,5 +3,5 @@
 
 ## Contents
 
-+ [ubuntu](https://github.com/zi-l/zi-l.github.io/tree/master/ubuntu)   
-  + [issues](https://github.com/zi-l/zi-l.github.io/tree/master/ubuntu/issues)
++ [ubuntu](https://github.com/zi-l/zi-l.github.io/tree/master/_posts/ubuntu)   
+  + [adventure](https://github.com/zi-l/zi-l.github.io/tree/master/_posts/ubuntu/adventure)
