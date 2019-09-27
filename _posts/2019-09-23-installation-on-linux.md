@@ -1,3 +1,14 @@
+---
+layout: post
+title: Linux自动化环境搭建
+subtitle: "Linux automation environment settings"
+author: "Yon Liu"
+tags:
+  - ubuntu
+  - centos
+  - adventure
+---
+
 ## nvm
 参考 [nvm-sh/nvm](https://github.com/nvm-sh/nvm#git-install)，使用git安装，注意`~/.bashrc`和`~/.profile`（centos为`~/.bash_profile`）都需要添加指定内容。
 完成后，使用`source ~/.bashrc`和`. ~/.profile`更新。

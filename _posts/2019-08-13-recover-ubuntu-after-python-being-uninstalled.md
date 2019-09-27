@@ -1,4 +1,14 @@
-# 卸载python3后，无网络恢复ubuntu的过程
+---
+layout: post
+title: 卸载python3后，无网络恢复ubuntu的过程
+subtitle: "Recover ubuntu after python being uninstalled"
+author: "Yon Liu"
+header-img: images/ubuntu/issue/enter-gui.png
+tags:
+  - ubuntu
+  - adventure
+---
+
 *注：此方法不需要下载任何东西*   
 
 
