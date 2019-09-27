@@ -6,7 +6,7 @@ author: "Yon Liu"
 tags:
   - ubuntu
   - centos
-  - adventure
+  - automation
 ---
 
 ## nvm
@@ -105,3 +105,8 @@ sudo ln -s $HOME/webdriver/<geckodriver-name> /usr/bin/geckodriver
 
 
 安装完重启，`/etc/profile`添加环境变量后需要重启才能完全生效。
+
+
+## Troubleshooting
+- [Troubleshooting on Linux](/_posts/2019-09-23-troubleshooting-on-linux.md)
+- [Troubleshooting on Linux](https://zi-l.github.io/2019/09/23/troubleshooting-on-linux.html)
