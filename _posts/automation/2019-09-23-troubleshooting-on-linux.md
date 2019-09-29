@@ -7,8 +7,7 @@ tags:
   - ubuntu
   - centos
   - automation
----
-[< HOME](https://zi-l.github.io)  
+--- 
 
 #### ModuleNotFoundError: No module named 'tkinter'
 tkinter依赖问题     

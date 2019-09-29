@@ -8,7 +8,6 @@ tags:
   - centos
   - automation
 ---
-[< HOME](https://zi-l.github.io)  
 
 ## nvm
 参考 [nvm-sh/nvm](https://github.com/nvm-sh/nvm#git-install)，使用git安装，注意`~/.bashrc`和`~/.profile`（centos为`~/.bash_profile`）都需要添加指定内容。

@@ -8,7 +8,6 @@ tags:
   - ubuntu
   - adventure
 ---
-[< HOME](https://zi-l.github.io)  
 
 *注：此方法不需要下载任何东西*   
 
