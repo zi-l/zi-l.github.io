@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux自动化环境搭建
-subtitle: "Linux automation environment settings"
+subtitle: "Automation setup on Linux"
 author: "Yon Liu"
 tags:
   - ubuntu
