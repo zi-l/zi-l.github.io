@@ -92,7 +92,7 @@ sudo ln -s $ANDROID_HOME/platform-tools/adb /usr/bin/adb
 ```     
 
 ## Driver
-driver可以选择以下两种方式，或者保存在框架的webdriver文件夹下
+driver可以选择以下两种方式
 - driver放在`/usr/bin/`或`/usr/local/bin`目录下
 - 新建一个文件夹专门管理driver，为driver创建软链接，如$HOME/webdriver   
 
