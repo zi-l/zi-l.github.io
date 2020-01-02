@@ -1,7 +1,7 @@
 ---
 layout: post
-title: appium分布式测试部署
-subtitle: "Appium distributed testing deployment"
+title: appium分布式测试服务部署
+subtitle: "Appium distributed testing service deployment"
 author: "Yon Liu"
 tags:
   - appium

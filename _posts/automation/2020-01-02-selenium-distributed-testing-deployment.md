@@ -1,7 +1,7 @@
 ---
 layout: post
-title: selenium分布式测试部署
-subtitle: "selenium distributed testing deployment"
+title: selenium分布式测试服务部署
+subtitle: "selenium distributed testing service deployment"
 author: "Yon Liu"
 tags:
   - selenium
@@ -85,7 +85,7 @@ java -jar selenium-server-standalone.jar -role node -hub http://<localhost-or-ip
 java -jar selenium-server-standalone.jar -role node -nodeConfig nodeconfig.json
 ```
 json设置参考[configuring-the-nodes-by-json](https://github.com/SeleniumHQ/selenium/wiki/Grid2#configuring-the-nodes-by-json)，如
-```
+```json
 {
    "capabilities":
       [
