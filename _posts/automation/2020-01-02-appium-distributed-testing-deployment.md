@@ -45,7 +45,7 @@ appium --port <port> --nodeconfig /path/to/<appium-nodeconfig>.json
 
 ## JSON文件
 JSON文件设置参考 [appium.io/grid](http://appium.io/docs/cn/advanced-concepts/grid/)：
-```
+```json
 {
   "capabilities":
       [
@@ -73,7 +73,7 @@ JSON文件设置参考 [appium.io/grid](http://appium.io/docs/cn/advanced-concep
 }
 ```
 如下，capabilities为设备注册到selenium grid的信息：
-```
+```json
 {
   "capabilities": [
     {
