@@ -13,7 +13,7 @@ SDK
 -  [sdk-tools-darwin-4333796.zip](https://dl.google.com/android/repository/sdk-tools-darwin-4333796.zip) , 已是官方最新(
 2020/1/17)
 
-JDK
+JDK     
 ```shell script
 brew install openjdk   # jdk 13
 ```    
