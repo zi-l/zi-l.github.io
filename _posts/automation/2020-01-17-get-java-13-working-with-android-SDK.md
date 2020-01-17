@@ -56,3 +56,6 @@ touch ～/.android/repositories.cfg
 
 成功
 ![](/images/automation/adb-version.png)
+
+*另注：要使用bin里面的工具，可能每个都需要追加CLASSPATH，如avdmanager。该问题应该可以通过java的CLASSPATH来解决*
+![](/images/automation/avdmanager-CLASSPATH.png)
