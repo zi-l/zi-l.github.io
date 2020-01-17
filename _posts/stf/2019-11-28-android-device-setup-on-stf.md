@@ -1,6 +1,6 @@
 ---
 layout: post
-title: STF远程Android的设置
+title: STF服务关于Android的设置
 subtitle: "Android device setup on STF"
 author: "Yon Liu"
 tags:
