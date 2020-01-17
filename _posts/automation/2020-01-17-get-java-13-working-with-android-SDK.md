@@ -13,8 +13,11 @@ SDK
 -  [sdk-tools-darwin-4333796.zip](https://dl.google.com/android/repository/sdk-tools-darwin-4333796.zip) , 已是官方最新(
 2020/1/17)
 
-JDK    
-- `brew install openjdk` 版本为13
+JDK
+```shell script
+brew install openjdk   # jdk 13
+```    
+
 
 ## issue
 执行命令`$ANDROID_HOME/tools/bin/sdkmanager --list`时出现问题
@@ -24,7 +27,7 @@ Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annota
 ![](/images/automation/sdkmanager-java-error.png)
 
 参考[bug-JDK-8189188](https://bugs.openjdk.java.net/browse/JDK-8189188) 关于javax.xml.bind等模块的移除说明，Java 9仍然保留这些
-模块，可以通过`--add-modules`来使用，但在新的版本中将会移除。从Java 11起，这些模块已经被移除，无法通过`--add-modules`使用。
+模块，可以通过`--add-modules`来使用，但从Java 11起，这些模块已经被移除，无法通过`--add-modules`使用。
 
 
 ## solution
