@@ -14,7 +14,7 @@ SDK
 2020/1/17)
 
 JDK     
-```shell script
+```shell
 brew install openjdk   # jdk 13
 ```    
 
