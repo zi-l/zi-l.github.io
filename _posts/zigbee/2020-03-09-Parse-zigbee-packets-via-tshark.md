@@ -7,39 +7,36 @@ tags:
   - zigbee
 --- 
 
-##Tshark解析zigbee包
-
-
-#### Wireshark相关
+## Wireshark相关
 - Wireshark：[Wireshark](https://www.wireshark.org/download.html)
 - pyshark库: [github:KimiNewt/pyshark](https://github.com/KimiNewt/pyshark)（
 不支持zigbee，目前只支持"wep"/"wpa-pwk"/"wpa-pwd"/"wpa-psk"这几种类型，
 参考[capture](https://github.com/KimiNewt/pyshark/blob/master/src/pyshark/capture/capture.py)）
 
 
-#### 安装tshark
+## 安装tshark
 
-###### Mac & Windows
+#### Mac & Windows
 需要安装wireshark，tshark位于wireshark安装目录下，需添加到环境变量。默认位置为
 ```
 Mac：/Applications/Wireshark.app/Contents/MacOS/tshark 
-Win: C:\Program Files\Wireshark\tshark.exe  ## 需添加到环境变量 
+Win: C:\Program Files\Wireshark\tshark.exe
 ```
 
-###### Ubuntu
+#### Ubuntu
 Ubuntu有单独的tshark包（参考[launchpad:ubuntu/+source/wireshark](https://launchpad.net/ubuntu/+source/wireshark)），使用以下命令安装
 ```shell
 sudo apt-get install tshark
 ```
 
-#### tshark解析zigbee包
+## tshark解析zigbee包
 
-###### tshark文档: 
+#### tshark文档: 
 - [man page](https://www.wireshark.org/docs/man-pages/tshark.html)
 - [filter-reference](https://www.wireshark.org/docs/dfref/#section_z)
 - [filter-man-page](https://www.wireshark.org/docs/man-pages/wireshark-filter.html)
 
-###### zigbee抓包
+#### zigbee抓包
 从接口抓包使用-i选项，如
 ```shell
 tshark -i \\.\pipe\tiwspc_data
