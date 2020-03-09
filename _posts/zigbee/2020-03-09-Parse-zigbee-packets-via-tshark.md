@@ -42,7 +42,7 @@ sudo apt-get install tshark
 tshark -i \\.\pipe\tiwspc_data
 ```
 
-从接口读取使用-r选项，如
+从文件中读取使用-r选项，如
 ```shell
 tshark -r /path/to/pachket-file
 ```
