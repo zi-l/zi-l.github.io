@@ -67,7 +67,9 @@ sudo yum install java-1.8.0-openjdk
 sudo mkdir /usr/lib/androidsdk
 sudo unzip sdk-tools*.zip -d /usr/lib/androidsdk/
 sudo chown $USER -R /usr/lib/androidsdk
-```
+```     
+*注意：参考 [android-setup.md](https://github.com/appium/appium/blob/master/docs/cn/appium-setup/android-setup.md) ，应该将sdk解压到/usr/local/目录下，如/usr/local/adt/androidsdk*  
+    
 完成后，在`/etc/profile`文件添加
 ```
 export ANDROID_HOME=/usr/lib/androidsdk
