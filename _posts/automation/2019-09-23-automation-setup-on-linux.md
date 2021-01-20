@@ -110,4 +110,4 @@ sudo ln -s $HOME/webdriver/<geckodriver-name> /usr/bin/geckodriver
 
 
 ## Troubleshooting
-- [Automation troubleshooting on Linux](/_posts/automation/2019-09-23-automation-troubleshooting-on-linux.html)
+- [Automation troubleshooting on Linux](_posts/automation/2019-09-23-automation-troubleshooting-on-linux.html)
